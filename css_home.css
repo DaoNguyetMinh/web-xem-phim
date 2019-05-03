@@ -1,0 +1,110 @@
+.body
+    {
+        background: rgb(117, 202, 185);
+    }
+
+    /******* định dạng cho search box  */
+.sb
+    {
+        margin-top: 13px;
+        width: 130px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        position: absolute;
+        right: 350px; 
+        border-radius: 4px; /* để bo gốc của khung */
+        border: 1px solid rgb(51, 161, 137);
+    }
+
+.sb:hover
+    {
+        background-color: rgb(205, 245, 236); /* màu nền trong khung */
+        -webkit-box-shadow: 0 8px 6px -6px #117A65; /* tạo hiệu ứng shadow */
+        -moz-box-shadow: 0 8px 6px -6px #117A65; /* tạo hiệu ứng shadow */
+        box-shadow: 0 8px 6px -6px #117A65; /* tạo hiệu ứng shadow */
+    }
+
+/* When the input field gets focus, change its width to 30% */
+.sb:focus 
+    {
+        width: 30%;
+    } 
+
+.bsb
+    {
+        margin-left: 895px;
+        margin-top: 12px;
+        border-radius: 4px;
+    }   
+    
+.logo
+    {
+        margin-top: 5.5px;
+    }
+
+.container
+    {
+        width: 1140px;
+        margin: 0 auto;   
+    }
+
+    /******* định dạng cho thanh navrbar */
+.nb
+    {
+        margin-left: 80px;
+        margin-top: 0px;
+        
+    }
+.boxnb
+    {
+       
+        margin: 0;
+        padding: 0;
+      /*  margin-top: 5px;
+        height: 40px;
+      /*  overflow: hidden; /* thành phần tràn sẽ được giấu đi */
+        background-color: rgb(89, 151, 139);
+        
+    }
+/*li
+    {     
+        padding: 25px; /* khoảng cách giữa các phần tử trong danh sách      
+    } */
+li:hover
+    {
+        background-color: rgb(96, 177, 147);
+    }
+.m
+    {
+        color: #f2f2f2;
+    }
+/*.d
+    {
+        color: #f2f2f2;
+        
+    } */
+.t{
+    margin-top: 10px;
+    background-color: #117A65;
+}
+
+.button{
+    background-color: aliceblue;
+    margin-left: 600px;
+}
+.logout{ 
+    margin-left: 5px;
+    background-color: aliceblue;
+    
+}
+.nm{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 72.3%;
+    height: 400px;
+}
+
+#demo{
+    margin-top: 15px;
+}
